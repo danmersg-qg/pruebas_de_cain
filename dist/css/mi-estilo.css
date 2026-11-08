@@ -1,0 +1,52 @@
+.tres-lineas{
+    background-color: white;
+    color:aliceblue;
+}
+.nav-contenedor{
+    background-color: rgb(255, 255, 255) !important;
+    color: black;
+}
+.titulos-oscuros{
+    background-color: red !important;
+    color: rgb(255, 255, 255);
+}
+
+.letra-oscuro{
+    color: black !important;
+}
+.letra-claro{
+    color: rgb(255, 255, 255) !important;
+}
+.color-rojo{
+    background-color: rgb(51, 5, 5);
+}
+.navbar-button{
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(0, 0, 0) !important;
+}
+.carousel-caption-titulo{
+    background-color: rgb(0, 3, 3);
+}
+.boton-whatsapp{
+    position:fixed;
+    right: 22px;
+    bottom: 22px;
+    width: 62px;
+    height: 62px;
+    border-radius: 18px;
+    display: flex;
+    z-index: 1040;
+    transition: transform 0.3s ease;
+}
+.boton-whatsapp img{
+    width: 62px;
+    height: 62px;
+    display: block;
+    object-fit: contain;
+}
+.boton-whatsapp:hover,
+.boton-whatsapp:focus-visible{
+    /*va a aumnentar un 20% el tamaño que será 120%*/
+    transform: scale(1.2);
+}
+
